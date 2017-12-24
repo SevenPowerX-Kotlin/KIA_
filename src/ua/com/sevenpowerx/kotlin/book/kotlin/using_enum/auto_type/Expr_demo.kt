@@ -1,16 +1,14 @@
 package ua.com.sevenpowerx.kotlin.book.kotlin.using_enum.auto_type
 
 fun main(args: Array<String>) {
-    println(eval(Sum(Sum(Num(1), Num(2)), Num(4))))
+    println(eval(Sum(Num(1), Num(2))))
 }
 
-fun eval(e: Expr): Int {
+fun eval(e: Expr): Int =
     if (e is Num) {
-        val n = e as Num
-        return n.value
+       e.value
+    }else if (e is Sum) {
+        eval(e.right)+ eval(e.left)
+    }else {
+        throw IllegalArgumentException("Unknown expression")
     }
-    if (e is Sum) {
-        return eval(e.right)+ eval(e.left)
-    }
-    throw IllegalArgumentException("Unknown expression")
-}
