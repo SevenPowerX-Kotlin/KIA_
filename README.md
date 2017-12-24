@@ -17,3 +17,5 @@ Online палигон http://try.kotlin
 
 2.3 Конструкция when замена (switch d Java), 
     концепция автоматического приведения типов (smart casts).
+    
+2.4 Итерации:циклы while b for
