@@ -27,7 +27,8 @@ fun main(args: Array<String>) {
 }
 
 
-//fun findAlice() = findPerso{it.name == "Alice"}
+
+//fun findAlice() = findPerson{it.name == "Alice"}
 
 
 //fun findBob() = findPerson{it.name == "Bob"}
