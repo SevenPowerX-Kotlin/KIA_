@@ -13,3 +13,4 @@ Sql https://github.com/jetbrains/exposed
 
 Online палигон http://try.kotlin
 
+стр - 2.1.4 Простое форматирование строк: шаблоны
