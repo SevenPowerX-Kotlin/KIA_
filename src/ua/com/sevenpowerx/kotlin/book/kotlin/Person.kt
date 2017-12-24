@@ -1,4 +1,4 @@
-package ua.com.sevenpowerx.kotlin.book.splaa
+package ua.com.sevenpowerx.kotlin.book.kotlin
 
 data class Person(val name: String,
                   val age: Int? = null)

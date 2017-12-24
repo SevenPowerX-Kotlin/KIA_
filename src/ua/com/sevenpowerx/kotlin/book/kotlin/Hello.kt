@@ -1,4 +1,4 @@
-package ua.com.sevenpowerx.kotlin.book.splaa
+package ua.com.sevenpowerx.kotlin.book.kotlin
 
 // Bob Прописан в командной строке
 fun main(args: Array<String>) {
