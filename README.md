@@ -14,3 +14,6 @@ Sql https://github.com/jetbrains/exposed
 Online палигон http://try.kotlin
 
 стр - 2.1.4 Простое форматирование строк: шаблоны
+
+2.3 Конструкция when замена (switch d Java), 
+    концепция автоматического приведения типов (smart casts).
