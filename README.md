@@ -2,3 +2,5 @@
 #####JavaFX Framework for Kotlin - https://tornadofx.io/
 
 стр - 26. 1.2.2.Статическая типизация
+TornadoFx 
+JavaFx

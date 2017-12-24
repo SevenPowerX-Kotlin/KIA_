@@ -10,3 +10,12 @@ fun main(args: Array<String>) {
     println("The oldest is: $oldest")
 
 }
+
+fun findPerso(function: () -> Boolean): Any {
+    TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
+}
+
+//fun findAlice() = findPerso{it.name == "Alice"}
+
+
+//fun findBob() = findPerson{it.name == "Bob"}
