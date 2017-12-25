@@ -25,6 +25,8 @@ fun main(args: Array<String>) {
     for (x in 0 until size)
         for(x in 0..size-1)*/
 
+
+    println()
     val binaryReps = TreeMap<Char, String>()
     for (c in 'A'..'F') {
         val binary = Integer.toBinaryString(c.toInt())
