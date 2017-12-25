@@ -21,6 +21,8 @@ fun main(args: Array<String>) {
     val list = listOf(1, 2, 3)
     println(list)
     println(joinToString(list,";","(",")"))
+    println(joinToString(list,separator = ";", postfix = "(", prefix = ")"))
+    println(joinToString(collection = list, postfix = "(", separator = ";", prefix = ")"))
 
 
 
