@@ -23,3 +23,4 @@ Online палигон http://try.kotlin
 2.5. Исключения в Kotlin
 2.5.1 try, catch и finally
 2.5.2 try,как выражения
+Глава 3. Определение и вызов фнкций
