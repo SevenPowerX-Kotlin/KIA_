@@ -10,17 +10,15 @@ fun main(args: Array<String>) {
                 "A percentage value must be between 0 and 100: $percentage"
         )
     }
-    val reader = BufferedReader(StringReader("239"))
-    println(readNumber(reader))
+    val reader = BufferedReader(StringReader("not a number"))
+   readNumber(reader)
 }
 
-fun readNumber(reader: BufferedReader): Int? {
-    return try {
-        val line = reader.readLine()
-        Integer.parseInt(line)
+fun readNumber(reader: BufferedReader){
+    val number = try {
+        Integer.parseInt(reader.readLine())
     } catch (e: NumberFormatException) {
         null
-    } finally {
-        reader.close()
     }
+    println(number)
 }
