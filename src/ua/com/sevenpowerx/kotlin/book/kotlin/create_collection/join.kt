@@ -26,3 +26,8 @@ fun performOperation(){
 fun reportOperationCount(){
 	println("Operation perfomed $opCount times")
 }
+//fun String.lastChar(): Char = this.get(this.length-1)
+fun String.lastChar(): Char = get(length-1) //this можно опустить
+fun main(args: Array<String>) {
+	println("Kotlin".lastChar())
+}
