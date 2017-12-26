@@ -7,4 +7,11 @@ fun main(args: Array<String>) {
 
 	val numbers: Collection<Int> = setOf(1, 14, 2)
 	println(numbers.max())
+
+	val list = listOf(2,3,5,7,11)
+
+	//Оператор (* - звёздочка) распаковывает содержимое массива
+	val listSpread = listOf("args: ", *args)
+	println(listSpread)
+
 }
